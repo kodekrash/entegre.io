@@ -1,0 +1,39 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	padding-top: 70px;
+}
+ul.nav-tree .active {
+	font-weight: bold;
+}
+ul.nav-tree .active ul {
+	font-weight: normal;
+}
+ul.nav-tree .active ul .active {
+	font-weight: bold;
+}
+code {
+	margin: 0 !important;
+}
+div.panel code, table code, h1 code, h2 code, h3 code, h4 code, h5 code, h6 code, p code {
+	background: transparent !important;
+}
+pre {
+	padding: 0 !important;
+	border: none !important;
+	background: transparent !important;
+}
+.code-block-header .panel-title {
+	line-height: 26px;
+	font-size: larger;
+	font-weight: bold;
+}
+.page-header {
+	margin: 0 0 30px 0;
+}
+.page-header h1 {
+	margin: 0;
+}
+div#lastmod span {
+	padding: 2px;
+	border-top: 1px dotted gray;	
+}
